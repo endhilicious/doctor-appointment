@@ -1,0 +1,74 @@
+.inputWrapper {
+  padding: 6px;
+  border: 1px solid #d2d2d2;
+  border-radius: 4px;
+
+  &:focus-within,
+  &:hover {
+    border: 1px solid #8c8c8c;
+  }
+}
+
+.inputFieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.inputLabelLegend {
+  position: absolute;
+  height: 100%;
+  color: #808080;
+  background-color: white;
+  padding: 0 4px;
+  pointer-events: none;
+  transition: font-size 0.15s;
+  padding: 0;
+
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+
+  &.isTriggered {
+    transform: translateY(-50%) scale(0.75);
+    font-size: 14px;
+    top: -6px;
+    transition: transform 0.15s, font-size 0.15s, width 0.1s;
+    width: unset;
+  }
+
+  width: 100%;
+}
+
+.inputLegend {
+  position: absolute;
+  top: -16px;
+  left: 8px;
+  font-size: 14px;
+  color: #808080;
+  background-color: white;
+  padding: 0 4px;
+  transition: transform 0.15s, font-size 0.15s;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.inputTextWrapper {
+  position: relative;
+}
+
+.inputText {
+  border: none;
+  outline: none;
+  width: 100%;
+
+  &.labelPosition--outside {
+    padding-top: 0;
+  }
+
+  &.labelPosition--inside {
+    padding-top: 10px;
+  }
+}
+

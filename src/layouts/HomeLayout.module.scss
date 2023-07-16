@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  transition: width 0.3s ease-in-out;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+
+  ul.navList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      margin-bottom: 10px;
+
+      a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+
+        &:hover {
+          color: #666;
+        }
+      }
+    }
+  }
+}
+
+.responsiveSidebar {
+  width: auto;
+  height: 100vh;
+}
+
+.contentWrapper {
+  flex-grow: 1;
+}
+.content {
+  padding: 20px;
+}

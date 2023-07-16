@@ -1,0 +1,1 @@
+export const AVATAR_DEFAULT = 'https://img.freepik.com/free-psd/3d-illustration-bald-person-with-glasses_23-2149436184.jpg?size=626&ext=jpg'

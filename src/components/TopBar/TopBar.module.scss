@@ -1,0 +1,72 @@
+.topBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  background-color: #f8f8f8;
+  height: 60px;
+  box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.breadcrumbSeparator {
+  margin: 0 4px;
+  color: #888888;
+}
+
+.breadcrumbLink {
+  color: #333333;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.mobileMenuButton {
+  display: none;
+  cursor: pointer;
+
+  @media (max-width: 768px) {
+    display: block;
+  }
+}
+
+.userMenu {
+  position: relative;
+}
+
+.userIcon {
+  cursor: pointer;
+}
+
+.userMenuList {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 160px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 8px 0;
+  list-style: none;
+}
+
+.userMenuItem {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #f1f1f1;
+  }
+
+  svg {
+    margin-right: 8px;
+  }
+}

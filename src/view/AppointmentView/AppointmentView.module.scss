@@ -1,0 +1,44 @@
+.appointmentView {
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.noAppointments {
+  color: #777;
+  margin-top: 20px;
+}
+
+.appointmentsList {
+  display: flex;
+  gap: 12px;
+}
+.modalCancelConfirmation {
+  display: flex;
+  gap: 12px;
+  padding-top: 10px;
+  justify-content: flex-end;
+}
+
+.appointmentItem {
+  margin-bottom: 10px;
+}
+
+.doctorId {
+  font-weight: bold;
+}
+
+.timeSlot {
+  font-weight: bold;
+  margin-left: 5px;
+}
+.timeSlotTime {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}

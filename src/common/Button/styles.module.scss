@@ -1,0 +1,92 @@
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$success-color: #24963e;
+$warning-color: #e5ad06;
+$error-color: #c62f3e;
+$xs-size: 10px;
+$xs-padding: 5px;
+$sm-size: 12px;
+$sm-padding: 8px;
+$md-size: 14px;
+$md-padding: 10px;
+$lg-size: 16px;
+$lg-padding: 12px;
+$xl-size: 18px;
+$xl-padding: 14px;
+
+.button {
+  border-radius: 4px;
+  font-weight: 600;
+  line-height: 20px;
+  cursor: pointer;
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+}
+
+.primary {
+  background-color: $primary-color;
+  color: #fff;
+  border: 1px solid $primary-color;
+  font-size: $md-size;
+  padding: $md-padding;
+}
+
+.secondary {
+  background-color: $secondary-color;
+  color: #000;
+  border: 1px solid $secondary-color;
+  font-size: $md-size;
+  padding: $md-padding;
+}
+
+.warning {
+  background-color: $warning-color;
+  color: #000;
+  border: 1px solid $warning-color;
+  font-size: $md-size;
+  padding: $md-padding;
+}
+
+.success {
+  background-color: $success-color;
+  color: #000;
+  border: 1px solid $success-color;
+  font-size: $md-size;
+  padding: $md-padding;
+}
+
+.error {
+  background-color: $error-color;
+  color: #000;
+  border: 1px solid $error-color;
+  font-size: $md-size;
+  padding: $md-padding;
+}
+
+.xs {
+  font-size: $xs-size;
+  padding: $xs-padding;
+}
+
+.sm {
+  font-size: $sm-size;
+  padding: $sm-padding;
+}
+
+.md {
+  font-size: $md-size;
+  padding: $md-padding;
+}
+
+.lg {
+  font-size: $lg-size;
+  padding: $lg-padding;
+}
+
+.xl {
+  font-size: $xl-size;
+  padding: $xl-padding;
+}
